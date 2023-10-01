@@ -2,7 +2,7 @@
   "networks": [
     {
       "alt": "Instagram",
-      "url": "https://www.instagram.com/anhurtadop/",
+      "url": "https://www.instagram.com/anhurtadop",
       "icon": "instagram.svg"
     }, {
       "alt": "TikTok",
@@ -14,15 +14,15 @@
       "icon": "facebook.svg"
     }, {
       "alt": "GitHub",
-      "url": "https://github.com/anhurtado",
+      "url": "https://github.com/anhurtadop",
       "icon": "github.svg"
     },  {
       "alt": "LinkedIn",
-      "url": "https://www.linkedin.com/in/anhurtado/",
+      "url": "https://www.linkedin.com/in/anhurtadop",
       "icon": "linkedin.svg"
     }, {
       "alt": "Twitter",
-      "url": "https://twitter.com/anhurtado",
+      "url": "https://twitter.com/anhurtadop",
       "icon": "twitter.svg"
     }, {
       "alt": "YouTube",
@@ -32,11 +32,18 @@
   ],
   "links": [
     {
+      "title": "Portfolio",
+      "url": "./portafolio.html",
+      "target": "_self"
+    },
+    {
       "title": "Escríbeme",
-      "url": "mailto:anhurtado@outlook.com"
+      "url": "mailto:anhurtado@outlook.com",
+      "target": "_blank"
     }, {
       "title": "Regalame un café",
-      "url": "https://www.paypal.com/paypalme/anhurtado/1.5"
+      "url": "https://www.paypal.com/paypalme/anhurtado/1.5",
+      "target": "_blank"
     }
   ]
 }

@@ -1,6 +1,6 @@
 // Request
 const request = new XMLHttpRequest();
-request.open('GET', './data.json', true);
+request.open('GET', './json/index.json', true);
 
 // Callback
 request.onload = function() {
@@ -18,7 +18,7 @@ request.onload = function() {
     // Links elements
     let linkElements = '';
     for (const item of data.links) {
-      linkElements += `<a href="${item.url}" target="_blank"><p>${item.title}</p></a>`;
+      linkElements += `<a href="${item.url}" target="${item.target}"><p>${item.title}</p></a>`;
     }
     document.getElementById('links').innerHTML = linkElements;
   } else {
