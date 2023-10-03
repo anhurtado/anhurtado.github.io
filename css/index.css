@@ -16,17 +16,17 @@
   font-size: 16px;
 }
 #profile {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 #profile img {
-  border: 10px solid #0088FF;
+  border: 10px solid #087EC4;
   border-radius: 50%;
   max-width: 40%;
 }
 #networks {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 #networks a {
   flex-grow: 1;
@@ -42,10 +42,10 @@
   width: 90%;
 }
 #links a {
-  background-color: #0088FF;
+  background-color: #087EC4;
   border-radius: 20px;
-  box-shadow: inset 0px -3px 0px #FFFFFF;
-  margin-bottom: 20px;
+  box-shadow: inset 0px -3px 0px #D0D0D0;
+  margin-bottom: 10px;
   text-decoration: none;
   color: #FFFFFF;
   font-size: 16px;
@@ -53,8 +53,12 @@
 }
 #links a:hover {
   background-color: #4797DD;
+  color: #FFFFFF;
 }
 #links a:active {
   box-shadow: none;
   transform: translateY(4px);
+}
+footer {
+  margin-top: 10px;
 }
