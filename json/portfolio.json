@@ -2,6 +2,13 @@
   "projects": [
     {
       "image": "./images/portfolio.jpg",
+      "link": "https://www.anhurtadop.com/",
+      "title": "Anthony Hurtado",
+      "subtitle": "Desarrollo de sitio web",
+      "tech": "HTML5 | CSS3 | JavaScript"
+    },
+    {
+      "image": "./images/portfolio.jpg",
       "link": "http://certainet.com/",
       "title": "Certainet Consultores",
       "subtitle": "Desarrollo de sitio web",
