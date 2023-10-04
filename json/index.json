@@ -32,8 +32,8 @@
   ],
   "links": [
     {
-      "title": "Portfolio",
-      "url": "./portafolio.html",
+      "title": "Portafolio",
+      "url": "./portfolio.html",
       "target": "_self"
     },
     {

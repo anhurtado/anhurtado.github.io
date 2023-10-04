@@ -1,35 +1,28 @@
-// Request
-const request = new XMLHttpRequest();
-request.open('GET', './json/index.json', true);
+const fnLoaded = async () => {
+  // Request
+  const response = await fetch('./json/index.json');
+  const data = await response.json();
 
-// Callback
-request.onload = function() {
-  if (request.status >= 200 && request.status < 400) {
-    // Conversion to JSON
-    const data = JSON.parse(request.responseText);
-
-    // Networks elements
-    let networkElements = '';
-    for (const item of data.networks) {
-      networkElements += `<a href="${item.url}" target="_blank"><img src="./images/${item.icon}" alt="${item.alt}" title="${item.alt}"></a>`;
-    }
-    document.getElementById('networks').innerHTML = networkElements;
-
-    // Links elements
-    let linkElements = '';
-    for (const item of data.links) {
-      linkElements += `<a href="${item.url}" target="${item.target}"><p>${item.title}</p></a>`;
-    }
-    document.getElementById('links').innerHTML = linkElements;
-  } else {
-    console.log('Error al cargar el archivo JSON');
+  // Networks elements
+  let networkElements = '';
+  for (const item of data.networks) {
+    networkElements += `
+      <a href="${item.url}" target="_blank">
+        <img src="./images/${item.icon}" alt="${item.alt}" title="${item.alt}">
+      </a>
+    `;
   }
-};
+  document.getElementById('networks').innerHTML = networkElements;
 
-// Error handler
-request.onerror = function() {
-  console.log('Error al intentar conectarse con el archivo JSON');
+  // Links elements
+  let linkElements = '';
+  for (const item of data.links) {
+    linkElements += `
+      <a href="${item.url}" target="${item.target}">
+        <p>${item.title}</p>
+      </a>
+    `;
+  }
+  document.getElementById('links').innerHTML = linkElements;
 };
-
-// Call request
-request.send();
+document.addEventListener('DOMContentLoaded', fnLoaded);

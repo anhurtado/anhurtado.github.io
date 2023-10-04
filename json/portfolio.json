@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "image": "./images/portfolio.jpg",
+      "link": "http://certainet.com/",
+      "title": "Certainet Consultores",
+      "subtitle": "Desarrollo de sitio web",
+      "tech": "HTML5 | CSS3 | JavaScript | Bootstrap"
+    },
+    {
+      "image": "./images/portfolio.jpg",
+      "link": "http://www.hardwell.com/",
+      "title": "Hardwell Technologies",
+      "subtitle": "Desarrollo de sitio web",
+      "tech": "AngularJS | HTML5 | CSS3 | JavaScript | Bootstrap"
+    }
+  ]
+}

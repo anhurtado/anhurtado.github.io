@@ -1,0 +1,56 @@
+#back {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: left !important;
+  display: block;
+  margin-bottom: 20px;
+}
+#back:hover {
+  text-decoration: underline;
+}
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#projects #item {
+  background-color: #000000;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#projects #item img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 30px;
+}
+#projects #item #info {
+  padding: 20px;
+}
+#projects #item #info * {
+  text-align: center;
+  margin: 0px 0px 5px 0px;
+}
+#projects #item #info a {
+  text-decoration: none;
+}
+#projects #item #info a:hover {
+  text-decoration: underline;
+  color: #087EC4;
+  cursor: pointer;
+}
+#projects #item #info p:nth-child(2) {
+  text-transform: uppercase;
+  margin: 10px;
+}
+#projects #item #info h2 {
+  color: #087EC4
+}
