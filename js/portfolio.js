@@ -11,13 +11,21 @@ portfolioRequest.onload = function() {
     // Project elements
     let projectElements = '';
     for (const item of data.projects) {
+      // Tech Stack
+      const techStack = item.tech.split('|');
+      let techStackElements = '';
+      for (const tech of techStack) {
+        techStackElements += `<span>${tech.trim()}</span>`;
+      }
+
+      // Projects
       projectElements += `
         <section id="item">
           <img src="${item.image}" alt="${item.title}">
           <section id="info">
             <a href="${item.link}" target="_blank"><h2>${item.title}</h2></a>
             <p>${item.subtitle}</p>
-            <p>${item.tech}</p>
+            <p id="tech">${techStackElements}</p>
           </section>
         </section>
       `;
