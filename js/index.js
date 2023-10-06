@@ -11,7 +11,7 @@ indexRequest.onload = function() {
     // Networks elements
     let networkElements = '';
     for (const item of data.networks) {
-      networkElements += `<a href="${item.url}" target="_blank"><img src="./images/${item.icon}" alt="${item.alt}" title="${item.alt}"></a>`;
+      networkElements += `<a href="${item.url}" target="_blank"><img src="./images/${item.icon}" alt="${item.alt} title="${item.alt}" title="${item.alt}"></a>`;
     }
     document.getElementById('networks').innerHTML = networkElements;
 
