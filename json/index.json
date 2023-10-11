@@ -32,11 +32,6 @@
   ],
   "links": [
     {
-      "title": "Portafolio",
-      "url": "./portfolio.html",
-      "target": "_self"
-    },
-    {
       "title": "Escríbeme",
       "url": "mailto:anhurtado@outlook.com",
       "target": "_blank"
