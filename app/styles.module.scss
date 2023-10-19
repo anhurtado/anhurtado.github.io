@@ -1,0 +1,20 @@
+@import '@/styles/general.scss';
+
+.body {
+  background-color: $gray-color;
+  text-align: center;
+  color: $white-color;
+  max-width: 60%;
+  margin: 5rem auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    max-width: 90%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .body {
+    max-width: 40%;
+  }
+}

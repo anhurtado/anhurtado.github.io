@@ -1,0 +1,23 @@
+@import '@/styles/general.scss';
+
+.button {
+  background-color: $blue-color;
+  border-radius: 1.25rem;
+  box-shadow: inset 0rem -0.18rem 0rem $gray-light-color;
+  margin-bottom: 0.6rem;
+  text-decoration: none;
+  color: $white-color;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+.button:hover {
+  background-color: $blue-light-color;
+  color: $white-color;
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateY(0.25rem);
+}
