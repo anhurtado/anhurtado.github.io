@@ -9,7 +9,7 @@ export default function Home() {
          <Profile />
       </section>
       <section className="mb-5">
-      <SocialNetwork />
+        <SocialNetwork />
       </section>
       <section className="w-full mb-5">
         <Navbar />
