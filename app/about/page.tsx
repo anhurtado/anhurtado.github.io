@@ -1,7 +1,12 @@
+import type { Metadata } from 'next'
 import Profile from "@/components/Profile"
 import SocialNetwork from "@/components/SocialNetwork"
 import styles from './styles.module.scss'
 import Link from "next/link"
+
+export const metadata: Metadata = {
+  title: 'Sobre mí - @anhurtadop'
+}
 
 export default function About() {
   return (

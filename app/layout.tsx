@@ -11,8 +11,21 @@ const nunito = Nunito({
 })
 
 export const metadata: Metadata = {
-  title: 'Anthony Hurtado',
+  title: 'Anthony Hurtado - @anhurtadop',
   description: 'Anthony Hurtado. Software Engineer / Moldeado por códigos y café',
+  authors: [
+    {
+      name: 'Anthony Hurtado',
+      url: 'https://www.anhurtadop.com'
+    }
+  ],
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Anthony Hurtado - @anhurtadop',
+    description: 'Anthony Hurtado. Software Engineer / Moldeado por códigos y café',
+    url: 'https://www.anhurtadop.com',
+    siteName: 'Anthony Hurtado'
+  }
 }
 
 export default function RootLayout({
