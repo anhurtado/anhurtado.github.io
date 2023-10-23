@@ -13,7 +13,7 @@ export default function Profile() {
           priority
         />
       <h1 className={styles.title}>Anthony Hurtado</h1>
-      <p>Software Engineer / Moldeado por códigos y café</p>
+      <p className={styles.subtitle}>Software Engineer / Moldeado por códigos y café</p>
     </section>
   )
 }

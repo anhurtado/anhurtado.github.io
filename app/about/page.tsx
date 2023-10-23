@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
-import Profile from "@/components/Profile"
-import SocialNetwork from "@/components/SocialNetwork"
+import Link from 'next/link'
+import SocialNetwork from '@/components/SocialNetwork'
 import styles from './styles.module.scss'
-import Link from "next/link"
 
 export const metadata: Metadata = {
   title: 'Sobre mí - @anhurtadop'
@@ -11,10 +10,10 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <section>
-      <Link href="/" className={styles.a}>Regresar</Link>
-      <Profile />
-      <section className="text-left mt-4">
-        <h2 className={styles.title}>Sobre mí</h2>
+      <Link href="/" className={styles.backLink}>Regresar</Link>
+      <section className="text-left mt-4 mb-5">
+        <h2 className={styles.titlePage}>Sobre mí</h2>
+        <p className={styles.subtitle}>Aquí les cuento un poco más sobre mí</p>
         <p className={styles.p}>¡Hola! Mi nombre es Anthony Hurtado y soy un apasionado ingeniero de software. Me encanta resolver problemas y crear soluciones innovadoras utilizando código, con una taza de café al lado, me sumerjo en el mundo de la programación y disfruto cada desafío que se me presenta.</p>
         <p className={styles.p}>Durante mi carrera profesional, he trabajado en una variedad de proyectos emocionantes que me han permitido adquirir habilidades en diferentes áreas de desarrollo de software. He trabajado con lenguajes como JavaScript, Python, Java, PHP y C#, y he tenido la oportunidad de trabajar en proyectos de desarrollo web, aplicaciones móviles, bases de datos, entre otros.</p>
         <p className={styles.p}>Además de la programación, tengo una pasión por el aprendizaje continuo y el crecimiento personal. Siempre estoy buscando oportunidades para ampliar mis conocimientos y mantenerme actualizado con las últimas tendencias tecnológicas. También disfruto compartir mis conocimientos con otros y aprender de la comunidad de desarrolladores.</p>
