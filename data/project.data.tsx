@@ -24,14 +24,14 @@ export const projectData = {
     {
       title: "COVID 19",
       subtitle: "Cifras oficiales del COVID-19 en Venezuela",
-      url: "https://covid19-two-amber.vercel.app/",
+      url: "https://covid19-two-amber.vercel.app",
       icon: "default.svg",
       tech: ["NodeJS", "ExpressJS", "PUG", "CSS", "JavaScript"]
     },
     {
       title: "Music Do",
       subtitle: "Descarga tu música favorita",
-      url: "",
+      url: "https://musicdo.vercel.app",
       icon: "default.svg",
       tech: ["NodeJS", "ExpressJS", "PUG", "CSS", "JavaScript"]
     }
