@@ -1,5 +1,12 @@
 @import '@/styles/general.scss';
 
+.navItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
 .button {
   background-color: $blue-color;
   border-radius: 1.25rem;

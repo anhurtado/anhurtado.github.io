@@ -8,13 +8,18 @@
   margin: 1rem auto;
 }
 
+.spacer {
+  margin-bottom: 1rem;
+}
+
 @media only screen and (max-width: 600px) {
   .body {
     max-width: 90%;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .body {
-    max-width: 40%;
+    max-width: 50%;
   }
 }

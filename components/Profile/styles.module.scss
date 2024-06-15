@@ -1,19 +1,44 @@
 @import '@/styles/general.scss';
 
-.image {
+.profileImage {
   border: 0.3rem solid $gray-light-color;
   border-radius: 50%;
-  max-width: 50%;
-  margin: 0 auto;
 }
 
-/*.subtitle {
-  margin-bottom: 2.5rem;
+.profileTitle {
+  font-weight: bold;
+  color: $white-color;
+  font-size: 3rem;
+}
+
+.profileSubtitle {
+  font-weight: bold;
+  color: $white-color;
+  font-size: 1.25rem;
+}
+
+.profileContent {
+  color: $white-color;
   font-size: 1rem;
-}*/
+}
+
+.profileDivider {
+  margin: 0.8rem auto;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, $black-color, $gray-light-color, $black-color);
+}
 
 @media only screen and (max-width: 600px) {
-  .title {
+  .profileTitle {
     font-size: 2rem;
+  }
+
+  .profileSubtitle {
+    font-size: 1rem;
+  }
+
+  .profileContent {
+    font-size: 0.8rem;
   }
 }

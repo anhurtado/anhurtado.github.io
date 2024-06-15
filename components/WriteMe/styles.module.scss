@@ -1,0 +1,49 @@
+@import '@/styles/general.scss';
+
+.title {
+  display: flex;
+  align-items: center;
+
+  h3 {
+    margin-left: 1rem;
+    text-transform: uppercase;
+  }
+}
+
+.emailBox {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+.buttonBox {
+  width: 30%;
+}
+
+.email {
+  border: 2px solid $gray-light-color;
+  border-radius: 0.25rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem;
+
+  &:hover {
+    cursor: text;
+  }
+}
+
+.button {
+  width: 4rem;
+  padding: 0.5rem;
+  background-color: $blue-color;
+  color: $white-color;
+  border: none;
+  border-radius: 0.25rem;
+  margin: 0rem 0rem 0rem 0.2rem;
+
+  &:hover {
+    background-color: $blue-light-color;
+    cursor: pointer;
+  }
+}
